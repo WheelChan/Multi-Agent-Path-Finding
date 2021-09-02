@@ -1,0 +1,2 @@
+# Multi-Agent-Path-Finding
+ Goal of project is to write programs that will allow multiple agents to find optimal paths from their start location to their goal location such that all agents are able to move simultaneously. Various algorithms will be explored such as Prioritized Planning, Conflict-Based Search (CBS), A* Search. Additionally, a paper that describes Safe Interval Path Planning (SIPP) provided the inspiration for writing of SIPP versions of Prioritized Planning and CBS.
