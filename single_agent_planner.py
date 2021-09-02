@@ -236,7 +236,7 @@ def a_star(my_map, start_loc, goal_loc, h_values, agent, constraints):
         #############################
         #          Adjust the goal test condition to handle goal constraints
 
-        if curr['loc'] == goal_loc and curr['timestep'] > (len(my_map)/2 + 3):  #test_8,15,16,24,29,31,32,41-43,47,49 needs 9 for timestep                        #goal constraint adjusted to take into account max_time requirement
+        if curr['loc'] == goal_loc and curr['timestep'] > (len(my_map)/2 + 3): #goal constraint adjusted to take into account max_time requirement
             return get_path(curr)                           #(len(my_map)/2 + agent)
         if curr['timestep'] > (3*(len(my_map)/2 + 3)):      #max time allowance is 3 times the goal time requirement
             return None
